@@ -1,2 +1,2 @@
 # VBS-Filemover
-Robust file-moving script
+Copying and moving files in VBS is pretty easy, right? But what if you need to at least try to handle errors? Like, cases when files are read-only, for example. Or when source or destination is a folder (which does cause errors in some cases). Or maybe you need some flexibility. These 3 functions will assist with all of the above. You choose source and destination, whether to move file or just copy and whether to overwrite the destination, if such file already exists there. With [HTA Logger](https://github.com/Simbiat/HTA-Logging) and notifications.
